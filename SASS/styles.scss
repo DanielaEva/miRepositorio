@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+@import 'secciones/headerFooter';
+@import 'secciones/talles';
+@import 'secciones/index';
+@import 'secciones/quienessomos';
+@import 'secciones/envios';
+@import 'secciones/contactanos';
+@import 'secciones/productos';

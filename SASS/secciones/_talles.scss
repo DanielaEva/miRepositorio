@@ -1,0 +1,53 @@
+/* TALLES */
+
+@mixin h2 {
+    font-size: 2.5rem;
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+.h1Talles {
+    font-size: 3rem;
+    color: grey;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.tallesContenedor {
+    .tallesContenedor__titulo {
+        @include h2;
+    }
+    .tallesContenedor__talles {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .tallesContenedor__item {
+        font-size: 1.5rem;
+        border: 1px solid grey;
+        border-radius: 5%;
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tallesContenedor {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 2;
+        margin: 2% 5%;
+    }
+    .tallesContenedor__div {
+        border: 1px solid grey;
+        justify-items: center;
+        align-items: center;
+        margin: 2%;
+    }
+    .tallesContenedor__titulo {
+        width: 50%;
+        margin: 5% 25% 10% 25%;
+    }
+}

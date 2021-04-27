@@ -1,0 +1,79 @@
+/* ENVIOS */
+
+$tonoDeGris: grey;
+.contenedorEnvios {
+    text-align: center;
+    padding: 5%;
+    .contenedorEnvios__img {
+        width: 100px;
+        border: 2px black solid;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 4%;
+    }
+    .contenedorEnvios__h2 {
+        font-size: 2.5rem;
+        color: white;
+        background-color: $tonoDeGris;
+        padding: 2%;
+    }
+    .contenedorEnvios__p {
+        font-size: 1.8rem;
+        color: $tonoDeGris;
+    }
+    .contenedorEnvios__retiro {
+        padding-top: 5%;
+    }
+}
+
+.h1EnvioRetiro {
+    font-size: 3rem;
+    color: grey;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contenedorEnvios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 2fr);
+        margin: 0 auto;
+        padding: 1%;
+        .contenedorEnvios__envio {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            text-align: center;
+            padding: 2%;
+            margin: 2%;
+            border: 2px solid lightgrey;
+            border-radius: 5px;
+        }
+        .contenedorEnvios__retiro {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            text-align: center;
+            padding: 2%;
+            margin: 2%;
+            border: 2px solid lightgrey;
+            border-radius: 5px;
+        }
+        .contenedorEnvios__p {
+            padding: 20px;
+        }
+        .contenedorEnvios__h2 {
+            font-size: 3rem;
+            color: grey;
+            background-color: white;
+        }
+    }
+    .h1EnvioRetiro {
+        padding: 1%;
+        margin: 1%;
+    }
+}

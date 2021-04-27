@@ -1,0 +1,133 @@
+/*MAIN*/
+
+.index {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 2%;
+}
+
+.index__titulo {
+    color: white;
+    background-color: grey;
+    font-size: 500%;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-inner h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: grey;
+    border-radius: 20%;
+    padding: 1rem;
+    width: 500px;
+    margin-left: 20%;
+}
+
+.linea {
+    background: #e8d94b;
+    border: 3px solid #e8d94b;
+}
+
+@media only screen and (min-width: 768px) {
+    .index {
+        background-repeat: no-repeat;
+        background-size: cover;
+        .index__titulo {
+            padding: 0 189px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .index__titulo {
+        padding: 0 485px;
+    }
+}
+
+// PRODUCTOS DESTACADOS 
+section {
+    .h2productos {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: grey;
+        margin: 5% 5% 0 5%;
+    }
+    .productosDestacados {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5%;
+    }
+    .estrella {
+        width: 20px;
+        margin-bottom: 2%;
+    }
+    .contenedorTitulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .productosDestacados img {
+        width: 100px;
+        border-radius: 5%;
+    }
+    .productosDestacados p {
+        font-size: 1.5rem;
+        color: grey;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 10%;
+    }
+    .productoDestacado {
+        display: flex;
+        flex-direction: column;
+    }
+    .gifEnvio {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        .h2productos {
+            font-size: 3rem;
+        }
+        .productosDestacados img {
+            width: 200px;
+            border-radius: 5%;
+        }
+        .productosDestacados p {
+            font-size: 2rem;
+            color: grey;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section {
+        .h2productos {
+            font-size: 4rem;
+        }
+        .productosDestacados img {
+            width: 300px;
+        }
+        .productosDestacados p {
+            font-size: 3rem;
+        }
+        .estrella {
+            width: 40px;
+            margin-bottom: 2%;
+        }
+    }
+}
