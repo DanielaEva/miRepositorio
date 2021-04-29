@@ -29,7 +29,11 @@ form {
 
 .h2Form {
     font-size: 2rem;
-    margin: 2%;
+    color: white;
+    background-color: hotpink;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
 }
 
 legend {
@@ -58,7 +62,7 @@ label {
 
 .botonContacto__reset:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: hotpink;
 }
 
 .botonContacto__enviar {
@@ -74,7 +78,7 @@ label {
 
 .botonContacto__enviar:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: yellow;
     color: grey;
 }
 
@@ -102,17 +106,13 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 10px;
         font-size: 2rem;
     }
-    form {
-        form p {
-            font-size: 2rem;
-        }
-        form h2 {
-            padding: 2%;
-        }
+    form p {
+        font-size: 2rem;
     }
     .botonContacto__enviar {
         font-size: 2rem;
-        width: 280px;
+        font-weight: 700;
+        width: 200px;
     }
     .botonContacto__reset {
         font-size: 1.8rem;
@@ -133,9 +133,5 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .botonContacto__reset {
         padding: 1%;
-    }
-    .h2Form {
-        font-size: 2.5rem;
-        margin: 2%;
     }
 }

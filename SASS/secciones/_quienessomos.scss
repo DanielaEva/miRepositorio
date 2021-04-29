@@ -19,20 +19,15 @@
     }
     .quienesSomos__p {
         font-size: 1.5rem;
-        color: purple;
+        color: grey;
         background-color: white;
         text-align: center;
         padding: 2%;
     }
     .quienesSomos__video {
-        width: 350px;
+        width: 80%;
+        height: 500px;
         margin-bottom: 5%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .quienesSomos__video {
-        width: 700px;
     }
 }
 
@@ -44,10 +39,5 @@
     }
     .quienesSomos__h1 {
         font-size: 4rem;
-    }
-    .quienesSomos__video {
-        width: 80%;
-        height: 600px;
-        margin-bottom: 5%;
     }
 }
