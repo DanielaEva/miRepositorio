@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../../prueba clase 11/scss/secciones/index.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

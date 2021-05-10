@@ -119,6 +119,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     .navFooter__enlace {
         display: flex;
         flex-direction: row;
@@ -139,7 +140,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-    /*
     .navFooter__enlace {
         display: flex;
         .navFooter__img {
@@ -148,7 +148,6 @@ footer {
             padding-right: 2%;
         }
     }
-    */
 }
 
 @media only screen and (min-width: 1024px) {

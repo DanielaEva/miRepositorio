@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.imgtalles {
+    width: 100%;
+}
+
 .h1Talles {
     font-size: 3rem;
     color: grey;
@@ -34,6 +38,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .h1Talles {
+        font-size: 4rem;
+    }
     .tallesContenedor {
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;

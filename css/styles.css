@@ -161,6 +161,9 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer .navFooter__enlace {
@@ -191,16 +194,16 @@ footer .navFooter__img {
 }
 
 @media only screen and (min-width: 768px) {
-  /*
-    .navFooter__enlace {
-        display: flex;
-        .navFooter__img {
-            width: 5%;
-            height: 5%;
-            padding-right: 2%;
-        }
-    }
-    */
+  .navFooter__enlace {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navFooter__enlace .navFooter__img {
+    width: 5%;
+    height: 5%;
+    padding-right: 2%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -221,6 +224,10 @@ footer .navFooter__img {
 }
 
 /* TALLES */
+.imgtalles {
+  width: 100%;
+}
+
 .h1Talles {
   font-size: 3rem;
   color: grey;
@@ -254,6 +261,9 @@ footer .navFooter__img {
 }
 
 @media only screen and (min-width: 1024px) {
+  .h1Talles {
+    font-size: 4rem;
+  }
   .tallesContenedor {
     display: -ms-grid;
     display: grid;
@@ -535,6 +545,9 @@ section .gifEnvio {
 }
 
 @media only screen and (min-width: 1024px) {
+  .h1EnvioRetiro {
+    font-size: 4rem;
+  }
   .contenedorEnvios {
     display: -ms-grid;
     display: grid;
@@ -795,6 +808,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (min-width: 1024px) {
+  .h1Productos {
+    font-size: 4rem;
+  }
   .productos {
     display: -ms-grid;
     display: grid;

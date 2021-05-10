@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../../prueba clase 11/scss/estilos.scss",
+        "../../prueba clase 11/scss/secciones/index.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}

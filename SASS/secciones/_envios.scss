@@ -35,6 +35,9 @@ $tonoDeGris: grey;
 }
 
 @media only screen and (min-width: 1024px) {
+    .h1EnvioRetiro {
+        font-size: 4rem;
+    }
     .contenedorEnvios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

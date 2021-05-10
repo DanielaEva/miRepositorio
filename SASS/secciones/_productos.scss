@@ -50,6 +50,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .h1Productos {
+        font-size: 4rem;
+    }
     .productos {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
