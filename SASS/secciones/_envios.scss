@@ -24,6 +24,24 @@ $tonoDeGris: grey;
     .contenedorEnvios__retiro {
         padding-top: 5%;
     }
+    .envios__mapa {
+        margin: 5%;
+        width: 80%;
+        height: 300px;
+        margin-bottom: 5%;
+    }
+    .enlace__envios {
+        font-size: 1.8rem;
+        color: $tonoDeGris;
+        a {
+            color: $tonoDeGris;
+            text-decoration: none;
+            &:hover {
+                color: black;
+                font-weight: 500;
+            }
+        }
+    }
 }
 
 .h1EnvioRetiro {

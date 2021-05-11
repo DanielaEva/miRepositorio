@@ -30,6 +30,23 @@
         margin: 10px;
         width: 100%;
     }
+    .productos__vermas {
+        font-size: 2rem;
+        text-align: center;
+        background-color: grey;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+        width: 100%;
+        a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: yellow;
+            }
+        }
+    }
     .productos__producto {
         display: grid;
         align-items: center;

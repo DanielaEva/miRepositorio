@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACtB;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EACrC,AAAA,mBAAmB,CAAC;IAChB,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,GAAG;GACtB",
+    "sources": [
+        "../SASS/secciones/vermas.scss"
+    ],
+    "names": [],
+    "file": "vermas.css"
+}
