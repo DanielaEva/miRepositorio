@@ -1,46 +1,20 @@
 /*MAIN*/
 
-.index {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    margin: 2%;
-}
-
-.index__titulo {
-    color: white;
-    background-color: grey;
-    font-size: 500%;
-    width: 100%;
-    text-align: center;
-}
-
 .linea {
     background: #e8d94b;
     border: 3px solid #e8d94b;
+    margin: 5%;
 }
 
-@media only screen and (min-width: 768px) {
-    .index {
-        background-repeat: no-repeat;
-        background-size: cover;
-        .index__titulo {
-            padding: 0 189px;
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .index__titulo {
-        padding: 0 485px;
-    }
+.imgenvios {
+    width: 100%;
+    margin-bottom: 5%;
 }
 
 // PRODUCTOS DESTACADOS 
-section {
+.sectionDestacados {
     .contenedorTitulo {
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -52,20 +26,16 @@ section {
         text-align: center;
         text-transform: uppercase;
         color: black;
-        margin: 5% 5% 0 5%;
+        margin: 5%;
     }
     .estrella {
         width: 20px;
         margin-bottom: 2%;
     }
     .productosDestacados {
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 3;
-        justify-items: center;
-    }
-    .productoDestacado {
-        margin: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     .productosDestacados img {
         width: 300px;
@@ -79,28 +49,15 @@ section {
         font-weight: 500;
         margin: 10%;
     }
-    .gifEnvio {
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
-    .contenedorGif {
-        display: flex;
-        align-content: center;
-        justify-content: space-around;
-        .gifEnvio {
-            width: 60%;
-        }
-    }
     section {
         .h2productos {
             font-size: 3rem;
         }
         .productosDestacados {
             display: flex;
-            flex-direction: row;
-            justify-content: center;
         }
         .productosDestacados img {
             width: 200px;
@@ -129,5 +86,10 @@ section {
             width: 40px;
             margin-bottom: 2%;
         }
+    }
+    .imgenvios {
+        width: 100%;
+        height: 200px;
+        margin: 5% 0%;
     }
 }
