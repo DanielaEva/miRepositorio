@@ -23,6 +23,9 @@ $tonoDeGris: grey;
     }
     .contenedorEnvios__retiro {
         padding-top: 5%;
+        .iframeMaps {
+            width: 100%;
+        }
     }
     .envios__mapa {
         margin: 5%;

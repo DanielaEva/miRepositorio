@@ -484,6 +484,10 @@ footer .navFooter__img {
   padding-top: 5%;
 }
 
+.contenedorEnvios .contenedorEnvios__retiro .iframeMaps {
+  width: 100%;
+}
+
 .contenedorEnvios .envios__mapa {
   margin: 5%;
   width: 80%;
