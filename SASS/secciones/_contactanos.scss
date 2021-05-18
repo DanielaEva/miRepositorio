@@ -1,137 +1,146 @@
-/* CONTACTANOS */
-
-.contenedorForm {
-    display: grid;
-    grid-template-rows: 3;
-    align-items: center;
-    justify-items: center;
-}
-
-input {
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 40%;
-}
-
-#nombre,
-#mail,
-#telefono {
-    margin: 10px;
-}
-
-form {
-    font-size: 18px;
-    form p {
-        font-size: 1.5rem;
-    }
-}
-
-.h2Form {
-    font-size: 2rem;
-    color: white;
-    background-color: hotpink;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
-}
-
-legend {
-    font-size: 20px;
-    font-weight: 700;
-    color: grey;
-}
-
-label {
-    display: block;
-    margin: 10px;
-    font-size: 2rem;
-}
-
-.botonContacto__reset {
-    font-size: 18px;
-    margin-top: 10px;
-    background-color: grey;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin: 10px;
-    border-radius: 5px;
-    transition: 1s;
-}
-
-.botonContacto__reset:hover {
-    cursor: pointer;
-    background-color: hotpink;
-}
-
-.botonContacto__enviar {
-    font-size: 1.5rem;
-    background-color: grey;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 2%;
-    border-radius: 5px;
-    transition: 1s;
-}
-
-.botonContacto__enviar:hover {
-    cursor: pointer;
-    background-color: yellow;
-    color: grey;
-}
-
-form,
-input {
-    text-align: center;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-}
-
-.botonContacto {
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
-    justify-items: center;
-    align-items: center;
-}
-
-@media only screen and (min-width: 768px) {
-    label {
-        display: block;
-        margin: 10px;
-        font-size: 2rem;
-    }
-    form p {
-        font-size: 2rem;
-    }
-    .botonContacto__enviar {
-        font-size: 2rem;
-        font-weight: 700;
-        width: 200px;
-    }
-    .botonContacto__reset {
-        font-size: 1.8rem;
-        width: 200px;
-    }
-    #nombre,
-    #mail,
-    #telefono {
-        width: 30%;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #nombre,
-    #mail,
-    #telefono {
-        width: 20%;
-    }
-    .botonContacto__reset {
-        padding: 1%;
-    }
-}
+ /* CONTACTANOS */
+ 
+ .h1contacto {
+     font-size: 4rem;
+     color: grey;
+     background-color: white;
+     text-align: center;
+     margin-top: 2%;
+     padding: 2%;
+ }
+ 
+ .contenedorForm {
+     display: grid;
+     grid-template-rows: 3;
+     align-items: center;
+     justify-items: center;
+ }
+ 
+ input {
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px;
+     width: 40%;
+ }
+ 
+ #nombre,
+ #mail,
+ #telefono {
+     margin: 10px;
+ }
+ 
+ form {
+     font-size: 18px;
+     form p {
+         font-size: 1.5rem;
+     }
+ }
+ 
+ .h2Form {
+     font-size: 2rem;
+     color: white;
+     background-color: hotpink;
+     border-radius: 5px;
+     padding: 2%;
+     margin: 2%;
+ }
+ 
+ legend {
+     font-size: 20px;
+     font-weight: 700;
+     color: grey;
+ }
+ 
+ label {
+     display: block;
+     margin: 10px;
+     font-size: 2rem;
+ }
+ 
+ .botonContacto__reset {
+     font-size: 18px;
+     margin-top: 10px;
+     background-color: grey;
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 1.5rem;
+     margin: 10px;
+     border-radius: 5px;
+     transition: 1s;
+ }
+ 
+ .botonContacto__reset:hover {
+     cursor: pointer;
+     background-color: black;
+ }
+ 
+ .botonContacto__enviar {
+     font-size: 1.5rem;
+     background-color: grey;
+     color: #ffffff;
+     text-transform: uppercase;
+     text-decoration: none;
+     margin: 2%;
+     border-radius: 5px;
+     transition: 1s;
+ }
+ 
+ .botonContacto__enviar:hover {
+     cursor: pointer;
+     background-color: black;
+     color: grey;
+ }
+ 
+ form,
+ input {
+     text-align: center;
+ }
+ 
+ input[type=number]::-webkit-inner-spin-button,
+ input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+ }
+ 
+ .botonContacto {
+     display: grid;
+     grid-template-columns: 1;
+     grid-template-rows: 2;
+     justify-items: center;
+     align-items: center;
+ }
+ 
+ @media only screen and (min-width: 768px) {
+     label {
+         display: block;
+         margin: 10px;
+         font-size: 2rem;
+     }
+     form p {
+         font-size: 2rem;
+     }
+     .botonContacto__enviar {
+         font-size: 2rem;
+         font-weight: 700;
+         width: 200px;
+     }
+     .botonContacto__reset {
+         font-size: 1.8rem;
+         width: 200px;
+     }
+     #nombre,
+     #mail,
+     #telefono {
+         width: 30%;
+     }
+ }
+ 
+ @media only screen and (min-width: 1024px) {
+     #nombre,
+     #mail,
+     #telefono {
+         width: 20%;
+     }
+     .botonContacto__reset {
+         padding: 1%;
+     }
+ }

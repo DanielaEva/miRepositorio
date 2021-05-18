@@ -14,7 +14,7 @@ body {
   -ms-grid-rows: 2;
       grid-template-rows: 2;
   justify-items: center;
-  background-color: #e8d94b;
+  background-color: #eaf661;
 }
 
 .contenedorHeader .contenedorHeader__li {
@@ -29,16 +29,16 @@ body {
 
 .contenedorHeader .dropdown-item {
   color: black;
-  background: #e8d94b;
-  font-size: 1.7rem;
+  background: #eaf661;
+  font-size: 2rem;
 }
 
 .contenedorHeader .dropdown-item:hover {
-  background-color: #e8d94b;
+  background-color: #eaf661;
 }
 
 .contenedorHeader .dropdown-menu {
-  background-color: #e8d94b;
+  background-color: #eaf661;
   border: none;
 }
 
@@ -46,7 +46,7 @@ body {
   list-style: none;
   text-decoration: none;
   color: black;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .contenedorHeader .contenedorHeader__enlace:hover {
@@ -78,8 +78,12 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .contenedorHeader .contenedorHeader__navegacion {
+    padding-top: 5%;
+  }
   .contenedorHeader .contenedorHeader__enlace {
-    font-size: 20px;
+    font-size: 2.3rem;
+    font-weight: 500;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -148,22 +152,20 @@ body {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+  .contenedorHeader .contenedorHeader__enlace {
+    font-size: 3rem;
+    font-weight: 500;
+  }
 }
 
 /*FOOTER*/
 footer {
   background-color: black;
   height: 200px;
+  padding-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -177,13 +179,16 @@ footer .navFooter__enlace {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   color: white;
   padding: 1%;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 footer .navFooter__enlace:hover {
@@ -197,12 +202,15 @@ footer .navFooter__img {
 }
 
 @media only screen and (min-width: 768px) {
-  .navFooter__enlace {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  footer {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-  .navFooter__enlace .navFooter__img {
+  footer .navFooter__enlace .navFooter__img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 5%;
     height: 5%;
     padding-right: 2%;
@@ -210,18 +218,20 @@ footer .navFooter__img {
 }
 
 @media only screen and (min-width: 1024px) {
+  footer {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
   footer .navFooter__enlace {
-    font-size: 1.5rem;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    font-size: 2rem;
   }
   footer .navFooter__enlace:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    font-size: 2.3rem;
   }
   footer .navFooter__img {
-    width: 3%;
-    height: 3%;
+    width: 4%;
+    height: 4%;
     padding-right: 1%;
   }
 }
@@ -292,14 +302,23 @@ footer .navFooter__img {
 
 /*MAIN*/
 .linea {
-  background: #e8d94b;
-  border: 3px solid #e8d94b;
+  background: #eaf661;
+  border: 3px solid #eaf661;
   margin: 5%;
 }
 
 .imgenvios {
   width: 100%;
   margin-bottom: 5%;
+}
+
+.sectionDestacados {
+  background-color: #D0D3D9;
+  margin: 5% 0%;
+}
+
+.sectionDestacados .h2pd {
+  margin: 5%;
 }
 
 .sectionDestacados .contenedorTitulo {
@@ -317,10 +336,11 @@ footer .navFooter__img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 2% 0%;
 }
 
 .sectionDestacados .h2productos {
-  font-size: 2.7rem;
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -358,9 +378,13 @@ footer .navFooter__img {
   margin: 10%;
 }
 
+.carousel-inner img {
+  height: 250px;
+}
+
 @media only screen and (min-width: 768px) {
   section .h2productos {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
   section .productosDestacados {
     display: -webkit-box;
@@ -376,17 +400,17 @@ footer .navFooter__img {
     color: grey;
     text-align: center;
   }
+  .carousel-inner img {
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-  section .h2productos {
-    font-size: 3rem;
-  }
   section .productosDestacados img {
     width: 300px;
   }
   section .productosDestacados p {
-    font-size: 2.5rem;
+    font-size: 3rem !important;
   }
   section .estrella {
     width: 40px;
@@ -394,8 +418,10 @@ footer .navFooter__img {
   }
   .imgenvios {
     width: 100%;
-    height: 200px;
-    margin: 5% 0%;
+    margin: 0% 0% 5% 0%;
+  }
+  .carousel-inner img {
+    height: 600px;
   }
 }
 
@@ -414,7 +440,7 @@ footer .navFooter__img {
 }
 
 .quienesSomos .quienesSomos__h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: grey;
   background-color: white;
   text-align: center;
@@ -511,7 +537,7 @@ footer .navFooter__img {
 }
 
 .h1EnvioRetiro {
-  font-size: 3rem;
+  font-size: 4rem;
   color: grey;
   text-align: center;
   margin-top: 2%;
@@ -519,9 +545,6 @@ footer .navFooter__img {
 }
 
 @media only screen and (min-width: 1024px) {
-  .h1EnvioRetiro {
-    font-size: 4rem;
-  }
   .contenedorEnvios {
     display: -ms-grid;
     display: grid;
@@ -569,6 +592,15 @@ footer .navFooter__img {
 }
 
 /* CONTACTANOS */
+.h1contacto {
+  font-size: 4rem;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  margin-top: 2%;
+  padding: 2%;
+}
+
 .contenedorForm {
   display: -ms-grid;
   display: grid;
@@ -606,8 +638,8 @@ form form p {
   color: white;
   background-color: hotpink;
   border-radius: 5px;
-  padding: 5px;
-  margin: 10px;
+  padding: 2%;
+  margin: 2%;
 }
 
 legend {
@@ -637,7 +669,7 @@ label {
 
 .botonContacto__reset:hover {
   cursor: pointer;
-  background-color: hotpink;
+  background-color: black;
 }
 
 .botonContacto__enviar {
@@ -654,7 +686,7 @@ label {
 
 .botonContacto__enviar:hover {
   cursor: pointer;
-  background-color: yellow;
+  background-color: black;
   color: grey;
 }
 
